@@ -15,3 +15,20 @@ console.log(name.toUpperCase());
 console.log(name.charAt(3));
 // we can find what is the index of the charator using indexOf(<char to find>);
 console.log(name.indexOf("M"));
+/* we can slice strings using two methods  
+
+
+<variableName>.slice(<startingIindex>, <stopingIndex>); 
+
+<variableName>.substring(0, 4);
+
+(here the stoping index will not be printed)*/
+console.log(name.substring(0,3));
+console.log(name.slice(-1));
+// we can remove white spaces on both sides of the string using string method
+const newName = "   mathew  ";
+console.log(newName.trim());
+// we could replace charactors in string with replace method
+console.log(name.replace("ew","apen"));
+// we could slip a string using the string method
+console.log();
