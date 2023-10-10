@@ -22,7 +22,8 @@ console.log(name.indexOf("M"));
 
 <variableName>.substring(0, 4);
 
-(here the stoping index will not be printed)*/
+(here the stoping index will not be printed)
+*/
 console.log(name.substring(0,3));
 console.log(name.slice(-1));
 // we can remove white spaces on both sides of the string using string method
@@ -30,5 +31,6 @@ const newName = "   mathew  ";
 console.log(newName.trim());
 // we could replace charactors in string with replace method
 console.log(name.replace("ew","apen"));
-// we could slip a string using the string method
-console.log();
+// we could split a string using the string method
+const newString = "Mathew-Joseph";
+console.log(newString.split("-"));
